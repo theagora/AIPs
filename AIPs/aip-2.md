@@ -1,11 +1,12 @@
 ---
-aip: <to be assigned>
+aip: 2
 title: Agora PEN
-status: Draft 
+description: A virtual volunteer newsroom with governance framework
+status: Active
 type: Feature
-author: theagora <@theagora>
-created: <2020-01-21>
-updated: <2026-06-30>
+author: theagora (@theagora)
+created: 2020-01-21
+updated: 2026-06-30
 ---
 
 ## Summary
