@@ -1,28 +1,36 @@
 # Agora Improving Proposals (AIPs)
 
-The Agora Improving Proposals (AIPs) provide design documents to describe new features, new initiatives and new inspirations for the Agora platforms and community.
+AIPs are design documents to describe features, projects and initiatives for the Agora community.
 
-## Contributing
+## How to Contribute
 
-1. Review the [AIP-1](https://github.com/agorahub/AIPs/blob/master/AIP-1/aip-1.md).
-2. Fork the Agora's [AIPs repository](https://github.com/agorahub/AIPs).
-3. Draft your AIP using the [AIP template](https://github.com/agorahub/AIPs/blob/master/aip-template.md).
-4. Submit a Pull Request to the Agora's [AIPs repository](https://github.com/agorahub/AIPs).
+1. Review the [AIP guidelines](https://github.com/agorahub/AIPs/blob/master/AIPs/aip-1.md).
+
+2. Draft your AIP using the [AIP template](https://github.com/agorahub/AIPs/blob/master/aip-template.md).
+
+3. Fork and Pull Request the [AIPs repository](https://github.com/agorahub/AIPs).
 
 Your first PR should be a first draft of the final AIP. An editor will manually review the first PR for a new AIP and assign it a number before merging it. Make sure you include a discussions-to header with the URL to a discussion forum or open GitHub issue where people can discuss the AIP as a whole.
 
-If your AIP requires images, the image files should be included in a subdirectory of the assets folder for that AIP as follows: assets/aip-N (where N is to be replaced with the AIP number). When linking to an image in the AIP, use relative links such as ../assets/aip-1/image.png.
+If your AIP requires images, the image files should be included in a subdirectory of the assets folder for that AIP as follows: `assets/aip-N` (where N is to be replaced with the AIP number). When linking to an image in the AIP, use relative links such as `../assets/aip-N/image.png`.
 
 Once your first PR is merged, we will help out merge PRs to draft AIPs. Make sure that you own the draft being edited and the 'author' line of your AIP contains either your GitHub username or your email address inside. If you use your email address, that address must be the one publicly shown on your GitHub profile.
 
-## Status and Type
+### Status and Type
 
 Terms of Status:
-- Draft - an AIP that is undergoing rapid iteration and changes for approval.
-- Active - an AIP that is approved as a candidate for finalization.
-- Final - an AIP that is in the shortlist for implementation.
+
+- Draft - AIP that is undergoing rapid iteration and changes for approval.
+- Active - AIP that is approved as a candidate for finalization.
+- Final - AIP that is in the shortlist for implementation.
 
 Terms of Type:
-- Meta - an AIP capable to the whole Agora community and platforms.
-- Feature - an AIP to add a new feature to the Agora platforms and community.
-- Misc - an AIP to describe initiatives, campaigns or any other inspirational proposals.
+
+- Meta - AIP capable to the whole Agora community and platforms.
+- Feature - AIP to add a feature to the Agora community or platforms.
+- Project - AIP to create a project or platform for the Agora community.
+- Misc - AIP to describe an initiative or others for the Agora community.
+
+## Disclaimer
+
+The information and opinions within this website are for information purposes only. They are not intended to constitute legal or other professional advice, and should not be relied on or treated as a substitute for specific advice relevant to particular circumstances. We accept no responsibility for any errors, omissions or misleading statements on this website, or for any loss which may arise from reliance on materials contained on this website. Certain parts of this site may link to external Internet sites, and other external Internet sites may link to this website. We are not responsible for the content of any external Internet sites.

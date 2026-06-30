@@ -24,9 +24,9 @@ AIPs Guidelines is a mini playbook for the contributors to convert ideas into de
 
 We'd specify the AIP Guidelines step by step:
 
-1. Read the [README](https://github.com/agorahub/AIPs/blob/master/README.md) and the [AIP guidelines](https://github.com/agorahub/AIPs/blob/master/AIP-1/aip-1.md) herein as a playbook.
+1. Read the [README](https://github.com/agorahub/AIPs/blob/master/README.md) and the [AIP guidelines](https://github.com/agorahub/AIPs/blob/master/AIPs/aip-1.md) herein as a playbook.
 
-2. Study the previous [AIPs](https://github.com/agorahub/AIPs/blob/master) to generate ideas and check availability.
+2. Study the previous [AIPs](https://github.com/agorahub/AIPs/blob/master/AIPs/) to generate ideas and check availability.
 
 3. Draft your AIP using the [AIP template](https://github.com/agorahub/AIPs/blob/master/aip-template.md).
 
