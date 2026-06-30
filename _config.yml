@@ -1,0 +1,32 @@
+title: Agora Improving Proposals
+description: >-
+  Design documents to describe features, projects and initiatives for the Agora community.
+baseurl: "/aips"
+url: "https://agorahub.github.io"
+github_username: agorahub
+
+header_pages:
+ - AIPs/aip-1.md
+ - meta.html
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+theme: minima
+kramdown:
+  parse_block_html: false
+  auto_ids: true
+  auto_id_stripping: true
+  syntax_highlighter: rouge
+permalink: /:slug
+defaults:
+  -
+    scope:
+      path: "AIPs"
+    values:
+      layout: "aip"
+
+exclude:
+  - .*
+  - README.md
+  - aip-template.md

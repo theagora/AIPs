@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% if page.status == "Draft" %}
+  <div class="draft">
+    ⚠️ This AIP is NOT recommended for general use or implementation as it is likely to change.
+  </div>
+{% elsif page.status == "Active" %}
+  <div class="review">
+    📖 This AIP is in the review stage subject to changes. Your feedback is appreciated.
+  </div>
+{% endif %}
+
+<div class="home">
+  <h1 class="page-heading">
+    AIP-{{ page.aip | xml_escape }}: {{ page.title | xml_escape }}
+  </h1>
+  <h3>{{ page.description | xml_escape }}</h3>
+  <table>
+    <tr><th>Author</th><td>{% include authorlist.html authors=page.author %}</td></tr>
+    <tr><th>Status</th><td>{{ page.status | xml_escape }}</td></tr>
+    <tr><th>Type</th><td>{{ page.type | xml_escape }}</td></tr>
+    <tr><th>Created</th><td>{{ page.created | xml_escape }}</td></tr>
+    <tr><th>Updated</th><td>{{ page.updated | xml_escape }}</td></tr>
+  </table>
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    {% include toc.html html=content sanitize=true h_max=3 %}
+  </div>
+  {% include anchor_headings.html html=content anchorClass="anchor-link" beforeHeading=true %}
+</div>
+{% comment %}
+Article schema specification:
+https://schema.org/TechArticle
+{% endcomment %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "headline": "AIP-{{ page.aip | xml_escape }}: {{ page.title | xml_escape }}{% if page.status == "Draft" or page.status == "Active" %} [DRAFT]{% endif %}",
+    "author": "{{ page.author }}",
+    "name": "AIP-{{ page.aip | xml_escape }}: {{ page.title | xml_escape }}{% if page.status == "Draft" or page.status == "Active" %} [DRAFT]{% endif %}",
+    "dateCreated": "{{ page.created | date: "%Y-%m-%d" }}",
+    "datePublished": "{{ page.created | date: "%Y-%m-%d" }}",
+    "inLanguage": "en-US",
+    "license": "#copyright",
+    "copyrightYear": "{{ page.created | date: "%Y" }}"
+  }
+</script>

@@ -1,0 +1,8 @@
+- name: "Meta"
+  desc: "AIP capable to the whole Agora community and platforms."
+- name: "Feature"
+  desc: "AIP to add a feature to the Agora community or platforms."
+- name: "Project"
+  desc: "AIP to create a project or platform for the Agora community."
+- name: "Misc"
+  desc: "AIP to describe an initiative or others for the Agora community."

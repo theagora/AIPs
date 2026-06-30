@@ -1,0 +1,6 @@
+- name: "Draft"
+  desc: "AIP that is undergoing rapid iteration and changes for approval."
+- name: "Active"
+  desc: "AIP that is approved as a candidate for finalization."
+- name: "Final"
+  desc: "AIP that is in the shortlist for implementation."
